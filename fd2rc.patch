@@ -1,0 +1,26 @@
+--- /etc/fd2rc	2015-11-17 03:15:57.000000000 +0900
++++ ./fd2rc	2015-11-17 03:14:42.124000000 +0900
+@@ -17,6 +17,7 @@
+ #	200-213: preserve previous sort type also in the archive browser
+ #		(the least 2 digits are effective just after initialize)
+ #SORTTYPE=0
++SORTTYPE=1
+ 
+ # default display mode
+ #	0: normal (Default)
+@@ -33,6 +34,7 @@
+ #	0: not sort (Default)
+ #	>= 1: sort according to SORTTYPE
+ #SORTTREE=0
++SORTTREE=1
+ 
+ # behavior about writing over directory on file system
+ #	0: confirm to write or not, after directory arranged (Default)
+@@ -184,6 +186,7 @@
+ #	2: color & force background to blacken
+ #	3: color & force foreground to blacken
+ #ANSICOLOR=0
++ANSICOLOR=1
+ 
+ # color palette in the ANSI color mode
+ #	Default: none
